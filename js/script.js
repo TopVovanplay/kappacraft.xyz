@@ -12,3 +12,13 @@ scrollButton.addEventListener("buy", () => {
     behavior: "smooth", // Добавляем плавную анимацию
   });
 });
+var text = document.getElementById("ip-el");
+
+/* сохраняем кнопку в переменную btn */
+var btn = document.getElementById("content-copy");
+
+/* вызываем функцию при нажатии на кнопку */
+btn.onclick = function() {
+  text.select();    
+  document.execCommand("copy");
+}
