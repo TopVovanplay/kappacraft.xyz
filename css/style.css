@@ -775,3 +775,7 @@ a {
 .footer__wrapper a {
   color: var(--background-orange);
 }
+.image-work{
+  margin-top:50px ;
+  margin-bottom: 50px;
+}
