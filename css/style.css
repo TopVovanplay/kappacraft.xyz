@@ -9,15 +9,15 @@ font-family: 'Montserrat', sans-serif;
 :root {
   --black: #282828;
   --black-header: #171718;
-  --yellow: #fbd438;
-  --background-orange: #eb6829;
+  --purple: #870091;
+  --background-orange: #ff3aff;
   --white: #fff;
 
   --dark-bg: var(--black);
   --black-bg: var(--black-header);
   --dark-border: var(--black);
   --header-text: var(--white);
-  --accent: var(--yellow);
+  --accent: var(--purple);
 }
 
 html,
@@ -67,11 +67,11 @@ a {
 }
 
 .ip-el {
-  background-color: rgba(252, 226, 62, 0.25);
+  background-color: rgba(132, 0, 255, 0.25);
   color: var(--accent);
   border-radius: 40px;
   color: white;
-  border: 1px solid #fbd438;
+  border: 1px solid #d900ff;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 23px;
