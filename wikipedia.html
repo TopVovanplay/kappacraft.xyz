@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Википедия &#x2022; BOZON</title>
+    <title>Онлайн карта &#x2022; KappaCraft</title>
     <meta name="description" content="Офицальная википедия сервера 'Bozon', здесь Вы можете встретить множества полезной информации о сервере.">
     </head>
     <main>
@@ -18,7 +18,7 @@
                         <button class="ip-el" id="content-copy">bozon.online</button>
                         <ul class="nav-list">
                             <li class="nav-list__item"><a href="./index.html" class="nav-list__link">Главная</a></li>
-                            <li class="nav-list__item"><a href="./wikipedia.html" class="nav-list__link nav-list__link--active">Википедия</a></li>
+                            <li class="nav-list__item"><a href="./wikipedia.html" class="nav-list__link nav-list__link--active">Онлайн карта</a></li>
                             <li class="nav-list__item"><a href="./about-server.html" class="nav-list__link">О сервере</a></li>
                         </ul>
                     </div>
@@ -27,13 +27,26 @@
         <main class="section">
             <div class="container">
                 <div class="wiki">
-                    <div class="image-work">
-                        <img src="./img/icons/building_construction.avif" alt="icon" class="wiki-details__cover">
-                    </div>
-                    <h2 class="title-1">В процессе...</h2>
-                    <div class="wiki-details__desc">
-                        <p class="subtitle-2">На данный момент мы работаем в процессе создания этого раздела...</p>
-                    </div>
+                    <style>
+                        iframe {
+                            width: 75%; /* It should not be 100% */
+                            height: 500px;
+                            display: block;
+                            padding-top: 0rem;
+                            padding-bottom: 10rem;
+                        }
+                      </style>
+                    <section style="
+                    padding-left: 2%;
+                    padding-right: 2%;">
+                    <div class="image-work">   
+                            <!-- You can set your Dynmap's map URL on the line (src="http://link")-->
+                            <iframe 
+                            class="container" 
+                            frameBorder="0"
+                            src="https://map.kappacraft.xyz/"><!-- <--- Dynmap Link Goes here <--- there -->
+                            </iframe>
+                          </div>
                 </div>
         </main> 
         <footer class="footer">
